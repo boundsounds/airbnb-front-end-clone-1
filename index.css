@@ -1,0 +1,46 @@
+.bg-cover{
+    background-image: url('airbnbcoverimage.jpg');
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    
+}
+ @media(min-width: 768px) {
+     section {
+         padding-top: 13.3125rem;
+     }
+
+     section {
+         padding-bottom: 7.5rem;
+     }
+ }
+
+ .br0,
+ .gj-datepicker-bootstrap [role=right-icon] button,
+ .form-control {
+     border-radius: 0 !important
+ }
+
+ .card-img-top {
+     max-height: 160px;
+     min-height: 160px;
+     object-fit: cover
+ }
+ .container-fluid{
+     height: 100%;
+     padding-top: 2%;
+     padding-bottom: 2%;;
+ }
